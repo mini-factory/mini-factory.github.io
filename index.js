@@ -10,5 +10,6 @@ $(document).ready(function() {
 
 	$(".non-prime").click(function() {
 		$(".center.prime").attr("src", $(this).attr("src"));
+		$("#img-main div").text($(this).attr("alt"));
 	});
 });

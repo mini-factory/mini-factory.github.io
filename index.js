@@ -7,9 +7,4 @@ $(document).ready(function() {
 	$("header p").click(function() {
 		$("object").hide().siblings("div").show();
 	});
-
-	$(".non-prime").click(function() {
-		$(".center.prime").attr("src", $(this).attr("src"));
-		$("#img-main div").text($(this).attr("alt"));
-	});
 });

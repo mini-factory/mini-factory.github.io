@@ -49,18 +49,8 @@ main {
     /* margin-top: 50px; */
 }
 
-.vertical-middle {
-    /* margin-top: auto;
-    margin-bottom: auto;  */
-    margin: auto;
-}
-
-#img-main {
-    height: 100%;
-}
-
-#img-main div {
-    text-align: center;
+#img-list {
+    margin: 50px;
 }
 
 .non-prime {

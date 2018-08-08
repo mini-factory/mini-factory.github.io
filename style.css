@@ -64,3 +64,18 @@ main {
     display: inline-block;
     width: 20%;
 }
+
+table {
+    margin-top: 130px;
+    margin-left: 60px;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+}
+
+td {
+    vertical-align: top;
+}
+
+td p {
+    margin: 5px 20px 5px 0px;
+}

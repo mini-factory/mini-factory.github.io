@@ -9,7 +9,7 @@ body {
     font-size: 13px;
     letter-spacing: 0.7px;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 header {
@@ -27,11 +27,13 @@ ul {
 header p {
     font-size: 20px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 header li {
     font-size: 14px;
     margin: 5px 0px;
+    cursor: pointer;
 }
 
 main {
@@ -51,4 +53,14 @@ main {
     /* margin-top: auto;
     margin-bottom: auto;  */
     margin: auto;
+}
+
+.non-prime {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-img {
+    display: inline-block;
+    width: 20%;
 }
